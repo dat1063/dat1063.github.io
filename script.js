@@ -31,7 +31,7 @@ $(function()
 		url: "Musics/Date-RADWIMPS-4608904.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 
-	},]
+	}];
 	
 	function shuffle(a) {
 		var j, x, i;
