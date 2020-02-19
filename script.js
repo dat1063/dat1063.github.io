@@ -25,7 +25,13 @@ $(function()
 		name: "Nếu Anh Đi (Cover)",
 		url: "Musics/NeuAnhDi.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-	}];
+	}, {
+		artist: "RADWIMPS",
+		name: "Date",
+		url: "Musics/Date-RADWIMPS-4608904.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+
+	},]
 	
 	function shuffle(a) {
 		var j, x, i;
