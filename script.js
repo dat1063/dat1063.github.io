@@ -21,9 +21,9 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Dig Didzay",
-		name: "Nếu Anh Đi (Cover)",
-		url: "Musics/NeuAnhDi.mp3",
+		artist: "RADWIMPS",
+		name: "Kataware Doki",
+		url: "Musics/Most Beautiful OST's of All Time - Kataware Doki-320.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}, {
 		artist: "RADWIMPS",
@@ -31,7 +31,27 @@ $(function()
 		url: "Musics/Date-RADWIMPS-4608904.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 
-	}];
+	}, {
+        artist: "RADWIMPS",
+        name: "Firework festival",
+        url: "Musics/fire.mp3",
+        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+
+    },  {
+        artist: "RADWIMPS",
+        name: "Hajimeteno",
+        url: "Musics/HajimetenoTokyo-Radwimps-5745100.mp3",
+        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+
+    },  {
+        artist: "RADWIMPS",
+        name: "tenki no ko",
+        url: "Musics/tenki.mp3",
+        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+
+    }];
+     
+    
 	
 	function shuffle(a) {
 		var j, x, i;
