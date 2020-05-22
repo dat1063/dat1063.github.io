@@ -1,0 +1,240 @@
+/*
+Theme Name: Type
+Description: Used to style blocks.
+*/
+
+/* 
+ * 01: Common Blocks
+ */
+
+/* Paragraph */
+
+p.has-drop-cap:not(:focus)::first-letter {
+	font-size: 5em;
+	margin-top: 0.125em;
+}
+
+/* Captions */
+
+[class^="wp-block-"] figcaption {
+	display: block;
+	margin: 10px 0 0;
+	font-size: 14px;
+	font-style: italic;
+	color: #888;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+/* Image */
+
+.wp-block-image {
+	margin-bottom: 20px;
+}
+
+.wp-block-image img {
+	display: block;
+}
+
+.wp-block-image .alignleft,
+.wp-block-image .alignright {
+	margin: 0 auto 20px;
+}
+
+.wp-block-image .aligncenter {
+	clear: both;
+	margin: 20px auto;
+}
+
+@media screen and (min-width: 480px) {
+	.wp-block-image .alignleft {
+	margin: 0 30px 20px 0;
+	}
+	.wp-block-image .alignright {
+	margin: 0 0 20px 30px;
+	}
+}
+
+/* Cover */
+
+.wp-block-cover-image,
+.wp-block-cover {
+	margin: 20px auto;
+}
+
+/* Gallery */
+
+.wp-block-gallery {
+	margin-left: 0;
+}
+
+/* Quote */
+
+.wp-block-quote.is-style-large, 
+.wp-block-quote.is-large {
+	margin: 20px 30px;
+	padding: 0 20px;
+}
+
+/* Audio */
+
+.wp-block-audio audio {
+	display: block;
+	width: 100%;
+}
+
+/* 
+ * 02: Formatting
+ */
+
+/* Pullquote */
+
+.wp-block-pullquote {
+	margin: 20px 0;
+    padding: 0;
+    border: 0;
+}
+
+.wp-block-pullquote blockquote {
+	border-left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-pullquote cite {
+	color: #888;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote cite {
+	font-size: 16px;
+}
+
+/* Verse */
+
+pre.wp-block-verse {
+	padding: 0;
+	background-color: transparent;
+	white-space: pre-wrap
+}
+
+/* 
+ * 03: Layout Elements
+ */
+
+/* Buttons */
+
+.wp-block-button {
+	margin-bottom: 20px;
+}
+
+.wp-block-button__link {
+	padding: 5px 20px;
+	background: #222;
+	color: #fff;
+	-webkit-border-radius: 128px;
+	border-radius: 128px;
+}
+
+/* Media & Text */
+
+.wp-block-media-text {
+	margin-bottom: 30px;
+}
+
+.wp-block-media-text *:last-child {
+	margin-bottom: 0;
+}
+
+/* Separator */
+
+.wp-block-separator,
+.wp-block-separator.is-style-wide {
+	border: 0;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+	height: 4px;
+	max-width: 100px;
+}
+
+/* 
+ * 04: Widget Blocks
+ */
+
+/* Archives, Categories & Latest Posts */
+
+.wp-block-archives.aligncenter,
+.wp-block-categories.aligncenter,
+.wp-block-latest-posts.aligncenter {
+	list-style-position: inside;
+	text-align: center;
+}
+
+/* Latest Comments */
+
+.wp-block-latest-comments__comment-meta {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* 
+ * 05: Colors & Font sizes
+ */
+
+.entry-content .has-black-color {
+	color: #000;
+}
+
+.entry-content .has-dark-gray-color {
+	color: #222;
+}
+
+.entry-content .has-medium-gray-color {
+	color: #444;
+}
+
+.entry-content .has-light-gray-color {
+	color: #888;
+}
+
+.entry-content .has-white-color {
+	color: #fff;
+}
+
+.entry-content .has-black-background-color {
+	background-color: #000;
+}
+
+.entry-content .has-dark-gray-background-color {
+	background-color: #222;
+}
+
+.entry-content .has-medium-gray-background-color {
+	background-color: #444;
+}
+
+.entry-content .has-light-gray-background-color {
+	background-color: #888;
+}
+
+.entry-content .has-white-background-color {
+	background-color: #fff;
+}
+
+.has-small-font-size {
+	font-size: 16px;
+}
+
+.has-regular-font-size {
+	font-size: 18px;
+}
+
+.has-large-font-size {
+	font-size: 24px;
+	line-height: 1.25;
+}
+
+.has-larger-font-size {
+	font-size: 32px;
+	line-height: 1.25;
+}
